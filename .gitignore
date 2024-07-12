@@ -16,3 +16,6 @@ TestResult.xml
 Version.cs
 Version.h
 Version.cpp
+.vsidx
+WebAPI/.vs/WebAPI/FileContentIndex/5201db55-d1a0-4f3c-b466-83fc803bb5da.vsidx
+*.vsidx
