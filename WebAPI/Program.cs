@@ -1,7 +1,10 @@
 using Microsoft.AspNetCore.HttpOverrides;
 using WebAPI.Extensions;
+using NLog;
 
 var builder = WebApplication.CreateBuilder(args);
+
+LogManager.LoadConfiguration(string.Concat(Directory.GetCurrentDirectory(), "/nlog.config"));
 
 // Add services to the container.
 
@@ -9,6 +12,7 @@ builder.Services.AddControllers();
 
 builder.Services.ConfigureCors();
 builder.Services.ConfigureIISIntegration();
+builder.Services.ConfigureLoggerService();
 
 
 var app = builder.Build();
@@ -30,6 +34,7 @@ app.UseCors("CorsPolicy");
 
 app.UseAuthorization();
 
+
 app.Use(async( context, next)=>{
     Console.WriteLine($"Logic befor the nwxt delegate in the Use Method");
     await next.Invoke(context);
@@ -46,10 +51,10 @@ app.Map("/usingmapbranch", builder =>
         });
     });
 
-    app.Run(async context =>
-    {
+    //app.Run(async context =>
+    //{
 
-    });
+    //});
     builder.Use(async (HttpContext context, RequestDelegate next) =>
     {
         Console.WriteLine("Map branch logic in the Use method before the nextdelegate");
