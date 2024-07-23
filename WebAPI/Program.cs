@@ -1,12 +1,15 @@
 using Microsoft.AspNetCore.HttpOverrides;
 using WebAPI.Extensions;
 using NLog;
+using System.Runtime.CompilerServices;
 
 var builder = WebApplication.CreateBuilder(args);
 
 LogManager.LoadConfiguration(string.Concat(Directory.GetCurrentDirectory(), "/nlog.config"));
 
 // Add services to the container.
+
+builder.Services.ConfigureRepositoryManager();
 
 builder.Services.AddControllers();
 
