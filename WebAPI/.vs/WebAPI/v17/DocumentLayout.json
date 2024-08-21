@@ -3,21 +3,72 @@
   "WorkspaceRootPath": "D:\\WebApi\\WEBAPI1\\WebAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5804A8B9-7388-4B8D-B16A-87516C6DD82C}|..\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj|d:\\webapi\\webapi1\\companyemployees.presentation\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5804A8B9-7388-4B8D-B16A-87516C6DD82C}|..\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj|d:\\webapi\\webapi1\\companyemployees.presentation\\modelbinders\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{638B24DF-830B-466D-865F-6FE950EDA730}|..\\Service\\Service.csproj|d:\\webapi\\webapi1\\service\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC6E29AC-E504-40C6-97C9-79E4D9986A87}|..\\Shared\\Shared.csproj|d:\\webapi\\webapi1\\shared\\datatransferobjects\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B6A5FF2C-2BF9-4A45-9AA7-CA731CA088F2}|..\\Repository\\Repository.csproj|d:\\webapi\\webapi1\\repository\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44BFE0A7-EBEC-43AD-9FDF-FD3AB4BEF0E1}|..\\Contracts\\Contracts.csproj|d:\\webapi\\webapi1\\contracts\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE08A588-59AE-4B65-A901-0EDD82644C79}|..\\Service.Contracts\\Service.Contracts.csproj|d:\\webapi\\webapi1\\service.contracts\\icompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{638B24DF-830B-466D-865F-6FE950EDA730}|..\\Service\\Service.csproj|d:\\webapi\\webapi1\\service\\companyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5804A8B9-7388-4B8D-B16A-87516C6DD82C}|..\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj|d:\\webapi\\webapi1\\companyemployees.presentation\\controllers\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6A5FF2C-2BF9-4A45-9AA7-CA731CA088F2}|..\\Repository\\Repository.csproj|d:\\webapi\\webapi1\\repository\\repositorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44BFE0A7-EBEC-43AD-9FDF-FD3AB4BEF0E1}|..\\Contracts\\Contracts.csproj|d:\\webapi\\webapi1\\contracts\\irepositorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6A5FF2C-2BF9-4A45-9AA7-CA731CA088F2}|..\\Repository\\Repository.csproj|d:\\webapi\\webapi1\\repository\\companyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44BFE0A7-EBEC-43AD-9FDF-FD3AB4BEF0E1}|..\\Contracts\\Contracts.csproj|d:\\webapi\\webapi1\\contracts\\icompanyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6E29AC-E504-40C6-97C9-79E4D9986A87}|..\\Shared\\Shared.csproj|d:\\webapi\\webapi1\\shared\\datatransferobjects\\employeeforcreationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6E29AC-E504-40C6-97C9-79E4D9986A87}|..\\Shared\\Shared.csproj|d:\\webapi\\webapi1\\shared\\datatransferobjects\\employeeformanipulationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6E29AC-E504-40C6-97C9-79E4D9986A87}|..\\Shared\\Shared.csproj|d:\\webapi\\webapi1\\shared\\datatransferobjects\\employeeforupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6E29AC-E504-40C6-97C9-79E4D9986A87}|..\\Shared\\Shared.csproj|d:\\webapi\\webapi1\\shared\\datatransferobjects\\companyforcreationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EA1EB7E-7EE3-4FF0-AC4E-8E06A40F6ED4}|..\\Entities\\Entities.csproj|d:\\webapi\\webapi1\\entities\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6E29AC-E504-40C6-97C9-79E4D9986A87}|..\\Shared\\Shared.csproj|d:\\webapi\\webapi1\\shared\\datatransferobjects\\companyforupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0B202D8F-C9EB-44B0-9745-192455D0345C}|WebAPI.csproj|d:\\webapi\\webapi1\\webapi\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B202D8F-C9EB-44B0-9745-192455D0345C}|WebAPI.csproj|solutionrelative:mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B202D8F-C9EB-44B0-9745-192455D0345C}|WebAPI.csproj|d:\\webapi\\webapi1\\webapi\\migrations\\20240722220550_initialdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B202D8F-C9EB-44B0-9745-192455D0345C}|WebAPI.csproj|solutionrelative:migrations\\20240722220550_initialdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B202D8F-C9EB-44B0-9745-192455D0345C}|WebAPI.csproj|d:\\webapi\\webapi1\\webapi\\migrations\\20240722212138_databasecreation.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B202D8F-C9EB-44B0-9745-192455D0345C}|WebAPI.csproj|solutionrelative:migrations\\20240722212138_databasecreation.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5804A8B9-7388-4B8D-B16A-87516C6DD82C}|..\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj|d:\\webapi\\webapi1\\companyemployees.presentation\\modelbinders\\arraymodelbinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EA1EB7E-7EE3-4FF0-AC4E-8E06A40F6ED4}|..\\Entities\\Entities.csproj|d:\\webapi\\webapi1\\entities\\exceptions\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EA1EB7E-7EE3-4FF0-AC4E-8E06A40F6ED4}|..\\Entities\\Entities.csproj|d:\\webapi\\webapi1\\entities\\exceptions\\companynotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,41 +86,158 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EmployeeDto.cs",
-              "DocumentMoniker": "D:\\WebApi\\WEBAPI1\\Shared\\DataTransferObjects\\EmployeeDto.cs",
-              "RelativeDocumentMoniker": "..\\Shared\\DataTransferObjects\\EmployeeDto.cs",
-              "ToolTip": "D:\\WebApi\\WEBAPI1\\Shared\\DataTransferObjects\\EmployeeDto.cs",
-              "RelativeToolTip": "..\\Shared\\DataTransferObjects\\EmployeeDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAkAAAA",
+              "DocumentIndex": 7,
+              "Title": "RepositoryManager.cs",
+              "DocumentMoniker": "D:\\WebApi\\WEBAPI1\\Repository\\RepositoryManager.cs",
+              "RelativeDocumentMoniker": "..\\Repository\\RepositoryManager.cs",
+              "ToolTip": "D:\\WebApi\\WEBAPI1\\Repository\\RepositoryManager.cs",
+              "RelativeToolTip": "..\\Repository\\RepositoryManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T18:51:54.849Z",
+              "WhenOpened": "2024-08-21T20:55:45.055Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
+              "Title": "IRepositoryManager.cs",
+              "DocumentMoniker": "D:\\WebApi\\WEBAPI1\\Contracts\\IRepositoryManager.cs",
+              "RelativeDocumentMoniker": "..\\Contracts\\IRepositoryManager.cs",
+              "ToolTip": "D:\\WebApi\\WEBAPI1\\Contracts\\IRepositoryManager.cs",
+              "RelativeToolTip": "..\\Contracts\\IRepositoryManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T20:54:15.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EmployeeForManipulationDto.cs",
+              "DocumentMoniker": "D:\\WebApi\\WEBAPI1\\Shared\\DataTransferObjects\\EmployeeForManipulationDto.cs",
+              "RelativeDocumentMoniker": "..\\Shared\\DataTransferObjects\\EmployeeForManipulationDto.cs",
+              "ToolTip": "D:\\WebApi\\WEBAPI1\\Shared\\DataTransferObjects\\EmployeeForManipulationDto.cs",
+              "RelativeToolTip": "..\\Shared\\DataTransferObjects\\EmployeeForManipulationDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T15:08:46.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CompanyForCreationDto.cs",
+              "DocumentMoniker": "D:\\WebApi\\WEBAPI1\\Shared\\DataTransferObjects\\CompanyForCreationDto.cs",
+              "RelativeDocumentMoniker": "..\\Shared\\DataTransferObjects\\CompanyForCreationDto.cs",
+              "ToolTip": "D:\\WebApi\\WEBAPI1\\Shared\\DataTransferObjects\\CompanyForCreationDto.cs",
+              "RelativeToolTip": "..\\Shared\\DataTransferObjects\\CompanyForCreationDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T14:28:41.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EmployeeForCreationDto.cs",
+              "DocumentMoniker": "D:\\WebApi\\WEBAPI1\\Shared\\DataTransferObjects\\EmployeeForCreationDto.cs",
+              "RelativeDocumentMoniker": "..\\Shared\\DataTransferObjects\\EmployeeForCreationDto.cs",
+              "ToolTip": "D:\\WebApi\\WEBAPI1\\Shared\\DataTransferObjects\\EmployeeForCreationDto.cs",
+              "RelativeToolTip": "..\\Shared\\DataTransferObjects\\EmployeeForCreationDto.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T21:26:10.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Company.cs",
+              "DocumentMoniker": "D:\\WebApi\\WEBAPI1\\Entities\\Models\\Company.cs",
+              "RelativeDocumentMoniker": "..\\Entities\\Models\\Company.cs",
+              "ToolTip": "D:\\WebApi\\WEBAPI1\\Entities\\Models\\Company.cs",
+              "RelativeToolTip": "..\\Entities\\Models\\Company.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T21:10:20.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CompanyForUpdateDto.cs",
+              "DocumentMoniker": "D:\\WebApi\\WEBAPI1\\Shared\\DataTransferObjects\\CompanyForUpdateDto.cs",
+              "RelativeDocumentMoniker": "..\\Shared\\DataTransferObjects\\CompanyForUpdateDto.cs",
+              "ToolTip": "D:\\WebApi\\WEBAPI1\\Shared\\DataTransferObjects\\CompanyForUpdateDto.cs",
+              "RelativeToolTip": "..\\Shared\\DataTransferObjects\\CompanyForUpdateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAswAgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T20:21:51.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "MappingProfile.cs",
               "DocumentMoniker": "D:\\WebApi\\WEBAPI1\\WebAPI\\MappingProfile.cs",
               "RelativeDocumentMoniker": "MappingProfile.cs",
               "ToolTip": "D:\\WebApi\\WEBAPI1\\WebAPI\\MappingProfile.cs",
               "RelativeToolTip": "MappingProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAswAwAAAAvAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAswBEAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T18:01:42.663Z",
+              "WhenOpened": "2024-08-20T16:29:11.978Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EmployeesController.cs",
-              "DocumentMoniker": "D:\\WebApi\\WEBAPI1\\CompanyEmployees.Presentation\\Controllers\\EmployeesController.cs",
-              "RelativeDocumentMoniker": "..\\CompanyEmployees.Presentation\\Controllers\\EmployeesController.cs",
-              "ToolTip": "D:\\WebApi\\WEBAPI1\\CompanyEmployees.Presentation\\Controllers\\EmployeesController.cs",
-              "RelativeToolTip": "..\\CompanyEmployees.Presentation\\Controllers\\EmployeesController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAADgvxwAAABCAAAA",
+              "DocumentIndex": 13,
+              "Title": "EmployeeForUpdateDto.cs",
+              "DocumentMoniker": "D:\\WebApi\\WEBAPI1\\Shared\\DataTransferObjects\\EmployeeForUpdateDto.cs",
+              "RelativeDocumentMoniker": "..\\Shared\\DataTransferObjects\\EmployeeForUpdateDto.cs",
+              "ToolTip": "D:\\WebApi\\WEBAPI1\\Shared\\DataTransferObjects\\EmployeeForUpdateDto.cs",
+              "RelativeToolTip": "..\\Shared\\DataTransferObjects\\EmployeeForUpdateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T17:51:58.277Z",
+              "WhenOpened": "2024-08-20T16:25:21.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20240722212138_DatabaseCreation.Designer.cs",
+              "DocumentMoniker": "D:\\WebApi\\WEBAPI1\\WebAPI\\Migrations\\20240722212138_DatabaseCreation.Designer.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240722212138_DatabaseCreation.Designer.cs",
+              "ToolTip": "D:\\WebApi\\WEBAPI1\\WebAPI\\Migrations\\20240722212138_DatabaseCreation.Designer.cs",
+              "RelativeToolTip": "Migrations\\20240722212138_DatabaseCreation.Designer.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAlwFcAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T15:19:21.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CompanyRepository.cs",
+              "DocumentMoniker": "D:\\WebApi\\WEBAPI1\\Repository\\CompanyRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repository\\CompanyRepository.cs",
+              "ToolTip": "D:\\WebApi\\WEBAPI1\\Repository\\CompanyRepository.cs",
+              "RelativeToolTip": "..\\Repository\\CompanyRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T15:07:19.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ICompanyRepository.cs",
+              "DocumentMoniker": "D:\\WebApi\\WEBAPI1\\Contracts\\ICompanyRepository.cs",
+              "RelativeDocumentMoniker": "..\\Contracts\\ICompanyRepository.cs",
+              "ToolTip": "D:\\WebApi\\WEBAPI1\\Contracts\\ICompanyRepository.cs",
+              "RelativeToolTip": "..\\Contracts\\ICompanyRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAswAQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T15:06:50.386Z",
               "EditorCaption": ""
             },
             {
@@ -80,22 +248,126 @@
               "RelativeDocumentMoniker": "..\\Service\\EmployeeService.cs",
               "ToolTip": "D:\\WebApi\\WEBAPI1\\Service\\EmployeeService.cs",
               "RelativeToolTip": "..\\Service\\EmployeeService.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAuwCkAAAAbAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAAewCkAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T17:51:58.287Z",
+              "WhenOpened": "2024-08-19T22:41:28.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "D:\\WebApi\\WEBAPI1\\Repository\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repository\\EmployeeRepository.cs",
+              "ToolTip": "D:\\WebApi\\WEBAPI1\\Repository\\EmployeeRepository.cs",
+              "RelativeToolTip": "..\\Repository\\EmployeeRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAswCAAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T22:40:13.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "D:\\WebApi\\WEBAPI1\\CompanyEmployees.Presentation\\ModelBinders\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "..\\CompanyEmployees.Presentation\\ModelBinders\\EmployeesController.cs",
+              "ToolTip": "D:\\WebApi\\WEBAPI1\\CompanyEmployees.Presentation\\ModelBinders\\EmployeesController.cs",
+              "RelativeToolTip": "..\\CompanyEmployees.Presentation\\ModelBinders\\EmployeesController.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAgwEoAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T21:36:17.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "D:\\WebApi\\WEBAPI1\\Contracts\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "..\\Contracts\\IEmployeeRepository.cs",
+              "ToolTip": "D:\\WebApi\\WEBAPI1\\Contracts\\IEmployeeRepository.cs",
+              "RelativeToolTip": "..\\Contracts\\IEmployeeRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAswA4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T22:32:51.609Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "20240722220550_InitialData.cs",
-              "DocumentMoniker": "D:\\WebApi\\WEBAPI1\\WebAPI\\Migrations\\20240722220550_InitialData.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240722220550_InitialData.cs",
-              "ToolTip": "D:\\WebApi\\WEBAPI1\\WebAPI\\Migrations\\20240722220550_InitialData.cs",
-              "RelativeToolTip": "Migrations\\20240722220550_InitialData.cs",
+              "Title": "ICompanyService.cs",
+              "DocumentMoniker": "D:\\WebApi\\WEBAPI1\\Service.Contracts\\ICompanyService.cs",
+              "RelativeDocumentMoniker": "..\\Service.Contracts\\ICompanyService.cs",
+              "ToolTip": "D:\\WebApi\\WEBAPI1\\Service.Contracts\\ICompanyService.cs",
+              "RelativeToolTip": "..\\Service.Contracts\\ICompanyService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T21:33:58.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BadRequestException.cs",
+              "DocumentMoniker": "D:\\WebApi\\WEBAPI1\\Entities\\Exceptions\\BadRequestException.cs",
+              "RelativeDocumentMoniker": "..\\Entities\\Exceptions\\BadRequestException.cs",
+              "ToolTip": "D:\\WebApi\\WEBAPI1\\Entities\\Exceptions\\BadRequestException.cs",
+              "RelativeToolTip": "..\\Entities\\Exceptions\\BadRequestException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T21:21:18.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CompanyNotFoundException.cs",
+              "DocumentMoniker": "D:\\WebApi\\WEBAPI1\\Entities\\Exceptions\\CompanyNotFoundException.cs",
+              "RelativeDocumentMoniker": "..\\Entities\\Exceptions\\CompanyNotFoundException.cs",
+              "ToolTip": "D:\\WebApi\\WEBAPI1\\Entities\\Exceptions\\CompanyNotFoundException.cs",
+              "RelativeToolTip": "..\\Entities\\Exceptions\\CompanyNotFoundException.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T17:47:42.997Z",
+              "WhenOpened": "2024-08-19T21:20:42.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CompanyService.cs",
+              "DocumentMoniker": "D:\\WebApi\\WEBAPI1\\Service\\CompanyService.cs",
+              "RelativeDocumentMoniker": "..\\Service\\CompanyService.cs",
+              "ToolTip": "D:\\WebApi\\WEBAPI1\\Service\\CompanyService.cs",
+              "RelativeToolTip": "..\\Service\\CompanyService.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAADwv2AAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T21:18:55.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CompaniesController.cs",
+              "DocumentMoniker": "D:\\WebApi\\WEBAPI1\\CompanyEmployees.Presentation\\Controllers\\CompaniesController.cs",
+              "RelativeDocumentMoniker": "..\\CompanyEmployees.Presentation\\Controllers\\CompaniesController.cs",
+              "ToolTip": "D:\\WebApi\\WEBAPI1\\CompanyEmployees.Presentation\\Controllers\\CompaniesController.cs",
+              "RelativeToolTip": "..\\CompanyEmployees.Presentation\\Controllers\\CompaniesController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAIA4wDAAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T21:13:06.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ArrayModelBinder.cs",
+              "DocumentMoniker": "D:\\WebApi\\WEBAPI1\\CompanyEmployees.Presentation\\ModelBinders\\ArrayModelBinder.cs",
+              "RelativeDocumentMoniker": "..\\CompanyEmployees.Presentation\\ModelBinders\\ArrayModelBinder.cs",
+              "ToolTip": "D:\\WebApi\\WEBAPI1\\CompanyEmployees.Presentation\\ModelBinders\\ArrayModelBinder.cs",
+              "RelativeToolTip": "..\\CompanyEmployees.Presentation\\ModelBinders\\ArrayModelBinder.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAQwCIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T21:14:11.4Z",
               "EditorCaption": ""
             }
           ]
